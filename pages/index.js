@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Hello from '../components/Hello'
 import styles from '../styles/Home.module.css'
 
 export default function Home () {
@@ -11,9 +12,7 @@ export default function Home () {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Mi personal blog
-        </h1>
+        <Hello className={styles.title} />
       </main>
     </div>
   )
